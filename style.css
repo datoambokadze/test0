@@ -65,3 +65,9 @@ header nav a{
     justify-content: center;
     border-radius: 20px;
 }
+
+@media screen and (max-width: 640px) {
+    header nav ul li a{
+        display: none;
+    }
+}
